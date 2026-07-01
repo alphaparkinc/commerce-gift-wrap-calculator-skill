@@ -1,0 +1,17 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "commerce-gift-wrap-calculator-skill",
+    "outputs":  {
+                    "result_val":  {
+                                       "type":  "string"
+                                   }
+                },
+    "description":  "Commerce checkout wrapping charges and card personalization skill.",
+    "inputs":  {
+                   "input_val":  {
+                                     "type":  "string"
+                                 }
+               },
+    "author":  "alphaparkinc",
+    "prompt":  "Coordinate commerce-gift-wrap-calculator-skill operations using the input configurations."
+}
