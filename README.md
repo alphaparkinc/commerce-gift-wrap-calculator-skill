@@ -1,3 +1,3 @@
-﻿# commerce-gift-wrap-calculator-skill
+# commerce-gift-wrap-calculator-skill
 
-Ready to use SDK library for commerce-gift-wrap-calculator-skill.
+Production-ready agent skill for Gift wrapping checkout fees.

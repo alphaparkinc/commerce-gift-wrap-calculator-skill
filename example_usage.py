@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import GiftWrapCalculatorClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = GiftWrapCalculatorClient()
+    print(c.calculate_gift_wrap("premium", "Happy Birthday Bruce!"))
 if __name__ == '__main__':
     main()
